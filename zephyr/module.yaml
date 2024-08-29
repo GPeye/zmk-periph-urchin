@@ -1,5 +1,6 @@
 name: 'zmk-periph-urchin'
 build:
+  cmake: ./boards/shields/nice_view_custom_peripheral/
   kconfig: Kconfig
   settings:
     board_root: .
