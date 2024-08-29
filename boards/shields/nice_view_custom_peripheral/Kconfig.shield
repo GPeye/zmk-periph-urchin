@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_NICE_VIEW_CUSTOM_PERIPHERAL
-    def_bool $(shields_list_contains,sheild_nice_view_custom_peripheral)
+    def_bool $(shields_list_contains,shiild_nice_view_custom_peripheral)
