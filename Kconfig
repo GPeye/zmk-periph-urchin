@@ -1,0 +1,10 @@
+config URCHIN_WIDGET
+    bool "Enable Urchin Widget"
+
+if URCHIN_WIDGET
+
+config URCHIN_WIDGET_DURATION
+    int "Total duration of the animation cycle. < 4800 will be faster > 4800 will be slower"
+    default 4800
+
+endif
